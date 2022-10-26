@@ -1,0 +1,2 @@
+product_id,manufacturer_id,category_id,product_name,generic_name,box_size,product_location,price,manufacturer_price,unit,tax,product_model,product_details,image,status
+sample1564,PA532D2APV2XJQOQTF4Y,T4XBEAOG9QAGFZI,Deltason,paracitamol,10,D,30,25,Box,0.02,Gel,New,http://localhost/pharmacy-v6/my-assets/image/product.png,1
