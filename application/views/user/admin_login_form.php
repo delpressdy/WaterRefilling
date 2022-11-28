@@ -46,7 +46,7 @@
                 </div>
                 <div class="form-group">
                     <label class="control-label" for="password"><?php echo display('password') ?></label>
-                    <input type="password" title="Please enter your password" placeholder="<?php echo display('password') ?>" required="" name="password" id="password" class="form-control">
+                    <input type="password" title="Please enter your password" placeholder="Enter Password" name="password" id="password" class="form-control">
                    
                 </div>
 

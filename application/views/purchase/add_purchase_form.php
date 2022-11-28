@@ -156,7 +156,7 @@
                                                 <input type="text" name="batch_id[]" id="batch_id_1" class="form-control text-right"  tabindex="6" placeholder="<?php echo display('batch_id') ?>" value="<?php $id = rand(1000,9999); echo $id; ?>" required readonly>
                                             </td>
                                             
-                                                <input type="hidden" name="expeire_date[]" id="expeire_date_1" class="form-control datepicker " tabindex="7"    placeholder="<?php echo 'Date'?>" onchange="checkExpiredate(1)" value="<?php $date = date ('Y-d-m h:s a'); echo $date; ?>" required readonly>
+                                                <input type="hidden" name="expeire_date[]" id="expeire_date_1" class="form-control datepicker " tabindex="7"    placeholder="<?php echo 'Date'?>" onchange="checkExpiredate(1)" value="<?php $date = date ('Y-d-m'); echo $newDate=date('Y-d-m', strtotime($date.'365 days')); ?>" required readonly>
                                             
 
                                        <td class="wt">

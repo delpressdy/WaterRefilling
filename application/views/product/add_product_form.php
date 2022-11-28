@@ -93,7 +93,7 @@
                             <div class="col-sm-6">
                                <div class="form-group row">
                                     <div class="col-sm-8">
-                                        <input class="form-control" name="generic_name" type="hidden" id="generic_name" value="<?php $petsa=date('M-d-Y h:s a'); echo $petsa; ?>" tabindex="2" required="required">
+                                        <input class="form-control" name="generic_name" type="hidden" id="generic_name" value="<?php $petsa=date('M-d-Y'); echo $petsa; ?>" tabindex="2" required="required">
                                     </div>
                                 </div>
                             </div>
@@ -141,9 +141,13 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group row">
-                                    <label for="product_location" class="col-sm-4 col-form-label"><?php echo 'Active/Inactive' ?></label>
+                                    <label for="product_location" class="col-sm-4 col-form-label"><?php echo 'Water Type' ?></label>
                                     <div class="col-sm-8">
-                                        <input class="form-control" tabindex="5" name="product_location" type="text" id="product_location" placeholder="Active/Inactive">
+                                        <select class="form-control" tabindex="5" name="product_location" id="product_location">
+                                            <option value="">-- Choose --</option>
+                                            <option value="Mineral">Mineral</option>
+                                            <option value="Alkaline">Alkaline</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>

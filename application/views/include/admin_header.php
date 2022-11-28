@@ -261,7 +261,7 @@
                     }?>"><a href="<?php echo base_url('Cproduct/typeindex')?>"><?php echo 'Type'; ?></a></li>
                         <?php } ?>
 
-                         <?php
+                        <!--  <?php
             if($this->permission1->module('add_unit')->access() || $this->permission1->module('unit_list')->access()) { ?>
                 <li class="treeview <?php if ($this->uri->segment('2') == ("unit_form") || $this->uri->segment('2') == ("unit_list")) { echo "active";}else{ echo " ";}?>">
                     <a href="#">
@@ -285,7 +285,7 @@
                     </ul>
                 </li>
             <?php } ?>
-
+ -->
                         <?php
                         if($this->permission1->method('add_medicine','create')->access()) { ?>
                             <li class="treeview <?php if ($this->uri->segment('1') == ("Cproduct") && $this->uri->segment('2') == ("")){

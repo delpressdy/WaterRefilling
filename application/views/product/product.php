@@ -74,7 +74,7 @@
 										<th><?php echo 'Date Added' ?></th>
 										<th><?php echo 'Model' ?></th>
 										<th><?php echo display('manufacturer') ?></th>
-										<th><?php echo 'Status' ?></th>
+										<th><?php echo 'Water Type' ?></th>
 										<th><?php echo display('sell_price') ?></th>
 									    <th><?php echo 'Gallon/Bottle Price' ?></th>
 									    <th><?php echo 'Size' ?></th>
